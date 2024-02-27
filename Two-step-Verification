@@ -1,0 +1,26 @@
+<div class="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-lg border border-gray-400">
+  <h2 class="text-2xl font-bold mb-4">Two-Step Verification</h2>
+    <div class="mb-4">
+      <label for="phone" class="block text-gray-600 text-sm font-medium mb-2">Enter Phone Number</label>
+      <input
+        type="text"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        class="w-full p-2 border-gray-400 rounded-md"
+      />
+    </div>
+    <div class="mb-4">
+      <label for="verificationCode" class="block text-gray-600 text-sm font-medium mb-2">Verification Code</label>
+      <input
+        type="text"
+        id="verificationCode"
+        name="verificationCode"
+        placeholder="Enter the code sent to your phone"
+        class="w-full p-2 border-gray-400 rounded-md"
+      />
+    </div>
+    <button
+      type="submit"
+      class="w-full bg-blue-500 text-white p-2 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue">Verify</button>
+</div>
